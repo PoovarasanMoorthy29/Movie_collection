@@ -1,5 +1,5 @@
-const API_KEY = '41d7efd63f1e8d73e7c5c7be7232b3f3';  // Replace with your actual TMDB API key
-const COLLECTION_ID = 1241;  // For Harry Potter
+const API_KEY = '41d7efd63f1e8d73e7c5c7be7232b3f3'; 
+const COLLECTION_ID = 1241;  
 const API_URL = `https://api.themoviedb.org/3/collection/${COLLECTION_ID}?api_key=${API_KEY}&language=en-US`;
 const IMAGE_URL = "https://image.tmdb.org/t/p/w200";
 
