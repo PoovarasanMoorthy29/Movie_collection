@@ -1,11 +1,15 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  font-family:sans-serif;
+  background: linear-gradient(red,blue,green);
   padding: 20px;
 }
 
 h1 {
   text-align: center;
+  font-family: fantasy;
+  color:#1f1;
+  letter-spacing: 1px;
+  font-size: 3rem;
 }
 
 .recycler-view {
@@ -16,9 +20,11 @@ h1 {
 
 .movie-card {
   display: flex;
-  background: #fff;
+  background-color: rgba(128, 128, 128, 0.323);
+  color:white;
+  word-spacing: 2px;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 1px 1px 1px 1px; */
   overflow: hidden;
 }
 
